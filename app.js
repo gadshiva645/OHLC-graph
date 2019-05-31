@@ -56,7 +56,8 @@ const csvWriter = createCsvWriter({
 
 
 //node.js
-//get data from alphavantage and write it to the csv file
+//use alphav-antage-cli modulo to get data from alphavantage
+//and write the data to the csv file
 var AlphaVantageAPI = require('alpha-vantage-cli').AlphaVantageAPI;
 
 var yourApiKey = 'demo';
