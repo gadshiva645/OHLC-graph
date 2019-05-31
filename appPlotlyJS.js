@@ -1,5 +1,5 @@
 
-
+//Client side javascript that uses plotly and csv file to plot ohlc graph
 Plotly.d3.csv('datacsvOHLC.csv', function(err, rows){
 
 function unpack(rows, key) {
