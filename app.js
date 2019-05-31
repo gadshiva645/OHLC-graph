@@ -34,7 +34,8 @@ app.listen(port, () => {
 //////////////////////////////////////////////////////////////////////////
 
 /*csv data*/
-//intialize csvwriter with header format
+//intialize csvwriter with its header format
+//uses the csv-writer modulo in node.js to the csv file path
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;  
 const csvWriter = createCsvWriter({  
   path: './public/datacsvOHLC.csv',
