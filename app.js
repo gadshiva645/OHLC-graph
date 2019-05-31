@@ -1,5 +1,6 @@
 
 /*Express*/
+//use express modulo for node.js, create port 3000
 var express = require("express");
 var app = express();
 var port = 3000;
@@ -8,6 +9,7 @@ app.get("/", (req, res) => {
  res.send("You are currently in the root directory");
 });
  
+//host the files in public folder to localhost
 app.use(express.static('public'));
 
 
@@ -53,7 +55,8 @@ const csvWriter = createCsvWriter({
 });
 
 
-//get data from alphavantage and push it to csv file
+//node.js
+//get data from alphavantage and write it to the csv file
 var AlphaVantageAPI = require('alpha-vantage-cli').AlphaVantageAPI;
 
 var yourApiKey = 'demo';
