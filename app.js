@@ -20,7 +20,7 @@ app.listen(port, () => {
 
 
 // //pull data from file and save it to json
-// const alpha = require('alphavantage')({key: 'JAFMAHL3Q9GK8XC1'});
+// const alpha = require('alphavantage')({key: ''});
 
 // alpha.data.daily('MSFT', 'compact', 'json', '1min').then(data =>{
 // 	var fs = require('fs');
