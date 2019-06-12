@@ -33,8 +33,6 @@ app.listen(port, () => {
 // });
 
 
-//////////////////////////////////////////////////////////////////////////
-
 /*csv data*/
 //intialize csvwriter with its header format
 //uses the csv-writer modulo in node.js to the csv file path
